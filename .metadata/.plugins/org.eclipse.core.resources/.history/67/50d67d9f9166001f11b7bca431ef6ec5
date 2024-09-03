@@ -1,0 +1,10 @@
+package com.jb.junit;
+public class Shapes 
+{
+	public double areaOfSqure(double length)
+	{
+//		Shapes shape = new Shapes();
+		return length*length;
+	}
+
+}

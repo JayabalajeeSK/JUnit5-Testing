@@ -1,0 +1,13 @@
+package com.jb.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+class ArraysTesting {
+	@Test
+	void testArrays() 
+	{
+		int [] exceptedArray= {2,4,6,8};
+		int [] actualArray= {4,8,6,2};
+		assertArrayEquals(exceptedArray, actualArray);
+	}
+
+}

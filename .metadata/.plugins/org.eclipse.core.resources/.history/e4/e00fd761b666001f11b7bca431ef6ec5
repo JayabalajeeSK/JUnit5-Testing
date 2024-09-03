@@ -1,0 +1,27 @@
+package com.jb.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+class ShapesTestBeforeAfter 
+{
+	Shapes shape;
+	@BeforeEach
+	void init()
+	{
+	     shape = new Shapes();
+	     System.out.println("Before Test");
+	}
+	
+	@Test
+	void testAreaofSquare() 
+	{
+		assertEquals(576, shape.areaOfSqure(24), "Area of Square Calculation is Wrong"); //24*23
+		System.out.println("Actual Test Running");
+	}
+	@Test
+	void testAreaofCircle() 
+	{
+		assertEquals(314, shape.areaOfCircle(10), "Area of Circle Calculation is Wrong");//3.14*10*10 // message will be displayed only if the testcase is failed
+	}
+	
+}

@@ -1,0 +1,17 @@
+package com.jb.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+class ShapesTest {
+	Shapes shape=new Shapes();
+	@Test
+	void testAreaofSquare() 
+	{
+//		Shapes shapeSquareArea=new Shapes();
+		assertEquals(576, shape.areaOfSqure(24)); //24*23
+	}
+	void testAreaofCircle() 
+	{
+//		Shapes shapeCircleArea=new Shapes();
+		assertEquals(314, shape.areaOfCircle(10));//3.14*10*10
+	}
+}

@@ -1,0 +1,17 @@
+package com.jb.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+class TestTrail {
+	@Test
+	void test() {
+		assertEquals(4, 4);
+	}
+	@Test
+	void testAreaOFSquare()
+	{
+		Shapes shape=new Shapes();
+		assertEquals(634, shape.areaOfSqure(8));
+	}
+	
+
+}

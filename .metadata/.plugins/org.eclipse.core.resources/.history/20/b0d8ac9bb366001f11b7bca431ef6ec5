@@ -1,0 +1,11 @@
+package com.jb.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+class SortingArrayTest2 {
+	@Test
+	void test() {
+		SortingArray array=new SortingArray();
+		int[] unsorted = {30,10,20,02}; 
+
+	}
+}

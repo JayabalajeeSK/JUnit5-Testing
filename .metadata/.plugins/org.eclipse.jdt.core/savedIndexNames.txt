@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+E:\Learing Process\Java Full Course\JUnit5 Testing\.metadata\.plugins\org.eclipse.jdt.core
+4292238537.index
+2295426143.index
+3651570174.index
+2882090647.index
+432490733.index
+1725894003.index
+1865797976.index
+381024764.index
+1578211290.index
